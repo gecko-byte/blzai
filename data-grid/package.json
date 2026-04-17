@@ -11,7 +11,7 @@
   "license": "GPL-3.0-or-later",
   "devDependencies": {
     "@duckdb/duckdb-wasm": "^1.32.0",
-    "@tailwindcss/postcss": "^4.2.1",
+    "@tailwindcss/postcss": "^4.2.2",
     "apache-arrow": "^21.1.0",
     "postcss": "^8.5.8",
     "solid-devtools": "^0.34.5",
