@@ -18,7 +18,7 @@
     "tailwindcss": "^4.2.2",
     "typescript": "^5.9.3",
     "vite": "^7.3.2",
-    "vite-plugin-solid": "^2.11.10"
+    "vite-plugin-solid": "^2.11.12"
   },
   "dependencies": {
     "@observablehq/plot": "^0.6.17",
