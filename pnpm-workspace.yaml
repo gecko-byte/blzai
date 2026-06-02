@@ -1,7 +1,7 @@
 packages:
   - .
   - data-grid
-
+blockExoticSubdeps: true
 minimumReleaseAge: 4320
 onlyBuiltDependencies:
   - esbuild
