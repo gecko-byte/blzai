@@ -41,12 +41,12 @@ jobs:
       - run: pnpm run build
       - run: pnpm test
       - name: Upload to blob storage
-        uses: azure/CLI@v2
+        uses: azure/CLI@v3
         with:
           inlineScript: |
             az storage blob upload-batch --account-name blzai --auth-mode login -d '$web' -s ./build --overwrite --output none
       - name: Purge CDN endpoint
-        uses: azure/CLI@v2
+        uses: azure/CLI@v3
         with:
           inlineScript: |
             az afd endpoint purge --resource-group blz.ai --profile-name blzai-static --endpoint-name blzai --domains blz.ai www.blz.ai --content-paths '/*'
